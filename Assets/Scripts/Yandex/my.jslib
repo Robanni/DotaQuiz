@@ -23,10 +23,10 @@ mergeInto(LibraryManager.library,{
     	ysdk.adv.showFullscreenAdv({
     callbacks: {
         onClose: function(wasShown) {
-          // some action after close
+          myGameInstance.SendMessage("GameController","EnableMusic");
         },
         onError: function(error) {
-          // some action on error
+          myGameInstance.SendMessage("GameController","EnableMusic");
         }
     }
 })

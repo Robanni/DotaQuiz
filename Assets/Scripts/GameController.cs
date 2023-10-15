@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private EndGameMenuController _endGameMenuController;
 
     [SerializeField] private float _timeBetweenAnswers;
+    [SerializeField] private AudioSource _audioSource;
 
     private int _numberOfQuestion = 0;
     private int _rightAnswers = 0;
@@ -18,6 +19,15 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        
+        try 
+        {
+            
+            Yandex.DeathAdv();
+            _audioSource.volume = 0;
+        }
+        catch  { }
+
         ChangeTheQuestion();
         
     }
@@ -36,12 +46,6 @@ public class GameController : MonoBehaviour
 
             _gameIsEnded = true;
 
-            try
-            {
-                Yandex.DeathAdv();
-            }
-            catch
-            {}
             
         }
     }
@@ -91,5 +95,9 @@ public class GameController : MonoBehaviour
         buttonImage.color = Color.white;
 
         ChangeTheQuestion();
+    }
+    public void EnableMusic()
+    {
+        _audioSource.volume = 0.5f;
     }
 }

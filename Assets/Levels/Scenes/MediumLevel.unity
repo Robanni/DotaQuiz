@@ -1110,7 +1110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.55250007, y: 0.27111113}
   m_AnchorMax: {x: 0.85125005, y: 0.4222223}
-  m_AnchoredPosition: {x: 0.50006104, y: -2.0000153}
+  m_AnchoredPosition: {x: 0.50006104, y: -2.000023}
   m_SizeDelta: {x: 1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536993349
@@ -1576,10 +1576,39 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ff5026beb0a26a14b91027c2defb6c11, type: 2}
   - {fileID: 11400000, guid: 076dd544d8bdb814982a0a5ab5f4deec, type: 2}
   - {fileID: 11400000, guid: ae5ecae10cc39b540aaa5e7b80d2fd73, type: 2}
-  - {fileID: 11400000, guid: 73299125ed12cf548be6b5380eae20a2, type: 2}
+  - {fileID: 11400000, guid: 5b2e20e9ac66a6940a36b7e6829f1d84, type: 2}
+  - {fileID: 11400000, guid: 2fb4d306c55f9c546bc162a44e4efc8b, type: 2}
+  - {fileID: 11400000, guid: b054d65ef2851724fa5fa9195dc3c198, type: 2}
+  - {fileID: 11400000, guid: d798287b938f5914cbbd4ecb35376f4e, type: 2}
+  - {fileID: 11400000, guid: c6f95d3f2594939479f442fcab913a5a, type: 2}
+  - {fileID: 11400000, guid: e628caa5f1232ca46b0ad664c876903b, type: 2}
+  - {fileID: 11400000, guid: 95ca67e3c537c6e439c2f6ae84e75db2, type: 2}
+  - {fileID: 11400000, guid: 8a6becf63499c8a488dd097fdaac3905, type: 2}
+  - {fileID: 11400000, guid: 7076717b4d855cf4faadd74eb08c0753, type: 2}
+  - {fileID: 11400000, guid: 775c92c9a9d269144aba8c6ce9fbc911, type: 2}
+  - {fileID: 11400000, guid: 19187984dba23f4459760d1c2c0fa232, type: 2}
+  - {fileID: 11400000, guid: 9c7bf3e8a0330a847a942039cba9e91d, type: 2}
+  - {fileID: 11400000, guid: 699e99d97bbcabd4ca2a6cb9b22644ee, type: 2}
+  - {fileID: 11400000, guid: 931cf6dc9543b6c459a2227ef756bd17, type: 2}
+  - {fileID: 11400000, guid: 1ec5ae03fa2e4ec4ba8e528acd58bf97, type: 2}
+  - {fileID: 11400000, guid: 451499584895e5f4e9f2a507b1a8a0bf, type: 2}
+  - {fileID: 11400000, guid: 37b9e7e7a2bf79f4883f974d6ea6cd8e, type: 2}
+  - {fileID: 11400000, guid: 4575acc58249c83418787e30e4c3ad7a, type: 2}
+  - {fileID: 11400000, guid: a5bd40a0cb23a2540a0b49f18be7df78, type: 2}
+  - {fileID: 11400000, guid: 22ec20c023418814bbea8f78d7ae27db, type: 2}
+  - {fileID: 11400000, guid: 3a52ac3795aa0864fbffef1196af40ae, type: 2}
+  - {fileID: 11400000, guid: dd89f395cb8ae86498532faa7597c9e7, type: 2}
+  - {fileID: 11400000, guid: b523e6b5e6f17054fbae8f52f8986fbb, type: 2}
+  - {fileID: 11400000, guid: 9cf0603dd9133ce4f86cd56e08af8a5a, type: 2}
+  - {fileID: 11400000, guid: 43037db14676c1649b59c0f7e61a2102, type: 2}
+  - {fileID: 11400000, guid: 8e18f537f1264bb478dfdf73781fb004, type: 2}
+  - {fileID: 11400000, guid: b9e3e45d5646e8443bb1eaa2aaffd10d, type: 2}
+  - {fileID: 11400000, guid: eefad5dd8789871478ce1e35a7828ed2, type: 2}
+  - {fileID: 11400000, guid: 75b8406a49e304243b21dbd035068906, type: 2}
   _questionHandler: {fileID: 255172875}
   _endGameMenuController: {fileID: 779693247}
   _timeBetweenAnswers: 1
+  _audioSource: {fileID: 177941942}
 --- !u!4 &710293251
 Transform:
   m_ObjectHideFlags: 0
@@ -1923,7 +1952,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.5
+  m_fontSize: 46.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2255,7 +2284,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.5
+  m_fontSize: 46.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2391,7 +2420,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53
+  m_fontSize: 50.7
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2904,7 +2933,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.75
+  m_fontSize: 46.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3075,7 +3104,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.75
+  m_fontSize: 46.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3444,7 +3473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14750001, y: 0.27111113}
   m_AnchorMax: {x: 0.44750002, y: 0.4222223}
-  m_AnchoredPosition: {x: 1.3500366, y: -2.0000153}
+  m_AnchoredPosition: {x: 1.3500366, y: -2.000023}
   m_SizeDelta: {x: 0, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097690920

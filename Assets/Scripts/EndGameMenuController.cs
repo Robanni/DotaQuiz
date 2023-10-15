@@ -8,11 +8,11 @@ public class EndGameMenuController : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _playerScore;
     [SerializeField] private TextMeshProUGUI _comentPlayerCore;
-    [SerializeField] private AudioSource _audioSource;
+    
     public void OpenEndGamemenu()
     {
         gameObject.SetActive(true);
-        _audioSource.volume = 0;
+        
     }
 
     public void RestartLevel()
