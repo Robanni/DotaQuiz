@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Levels/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Levels/Scenes/Menu.unity
     guid: 16960e5465725f34cbb42746c55a61e7
   - enabled: 1
@@ -17,7 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Scenes/MediumLevel.unity
     guid: 95dcd99d6faf4434b8bab36e4da7cb7e
+  - enabled: 1
+    path: Assets/Levels/Scenes/HardLevelEng.unity
+    guid: f4eeb4220551c324aafe67ad20799c42
   - enabled: 0
-    path: Assets/Levels/Scenes/HardLevel.unity
+    path: Assets/Levels/Scenes/HardLevel Ru.unity
     guid: 93cd2bb2fc223e24083e66f6b49cd566
+  - enabled: 1
+    path: Assets/Levels/Scenes/EasyLevelRU.unity
+    guid: e0ba79842e73d0348907117996502070
+  - enabled: 1
+    path: Assets/Levels/Scenes/MediumLevelRU.unity
+    guid: 3e947ead98f89b742bef03ec16c38639
+  - enabled: 1
+    path: Assets/Levels/Scenes/HardLevelRu.unity
+    guid: bee16c1f69fb49a4b9fccbb73f2e8b23
   m_configObjects: {}
